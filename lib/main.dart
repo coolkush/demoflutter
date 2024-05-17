@@ -6,7 +6,7 @@ import 'package:sizer/sizer.dart';
 import 'component/theme/dark_theme.dart';
 
 void main() {
-   WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         darkTheme: darkTheme,
         themeMode: ThemeMode.system,
         home: const MyHomePage(title: 'Flutter Demo Home Page'),
-          debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: false,
       );
     });
   }
