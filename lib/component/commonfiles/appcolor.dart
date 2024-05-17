@@ -7,6 +7,7 @@ class AppColors {
   static AppColors get instance => _instance;
 
   Color get blackColor => const Color(0XFF000000);
+  Color get whiteColor => const Color(0XFF000000);
   Color get bgColor => const Color.fromARGB(255, 158, 66, 66);
   Color get lightTextColor => const Color(0XFFE2E2E2);
   Color get darkSplashBackground => const Color(0XFFE2E2E2);
